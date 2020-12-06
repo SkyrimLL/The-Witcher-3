@@ -70,7 +70,7 @@ function isFastTravelBlocked(location_to : name, is_discovered_to: bool, is_know
 	/* Ferry on the Pontar */
 	if (location_from == 'bayors_ferry_station' || ( (location_to == 'bayors_ferry_station') && (is_discovered_to || is_known_to)))
 	{
-		/* White orchard Nilfgaard camp <-> Bayors Ferry Station (ferry shortcut along the Pontar) */
+		/* Bayors Ferry Station <-> White orchard Nilfgaard camp */
 		if (location_from == 'bayors_ferry_station' && location_to == 'Nilfgaard_camp') return false;
 		if (location_from == 'Nilfgaard_camp' && location_to == 'bayors_ferry_station') return false;
 	}
