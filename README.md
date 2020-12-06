@@ -48,7 +48,7 @@ Unlocked routes when the destination is known or discovered during quests:
 
 Ferry on the Pontar - Unlock the routes by discovering the destinations first.
 
-- White orchard Nilfgaard camp <-> Bayors Ferry Station (ferry shortcut along the Pontar)
+- Bayors Ferry Station <-> White orchard Nilfgaard camp
 - Oxenfurt Harbor <-> White orchard Nilfgaard camp
 - Novigrad Piers <-> White orchard Nilfgaard camp
 - Novigrad Piers <-> Oxenfurt Harbor
