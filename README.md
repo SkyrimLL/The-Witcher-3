@@ -15,6 +15,7 @@ I ended up with a few tweaks:
 
 - Install the original Long Journey mod first
 - Install the files in this GitHub repo inside "The Witcher 3\Mods\modLongJourneyExtended\" folder
+- Run TheWitcher3ModManager.exe to merge the changes with your mods
 
 ## Changes to the Fast Travel system
 
