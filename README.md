@@ -36,9 +36,7 @@ Unlocked routes when the destination is known or discovered during quests:
 
 - Crow's Perch <-> Novigrad nilfgaard big camp on south
 - Novigrad docks <-> Skellige (Craite Harbor)
-
 - Brunwich village (HS) <-> Kaer Morhen
-
 - Toussaint Lebioda Statue Harbor <-> Vyzima 
 - Toussaint Lebioda Statue Harbor <-> Novigrad nilf big camp on south
 - Toussaint Lebioda Statue Harbor <-> Toussaint Beauclair Harbor
