@@ -22,6 +22,10 @@ I ended up with a few tweaks:
 Outside of Fast Travel, the map will show you all known Sign posts as landscape markers.
 When attempting Fast Travel, the map will show you only Sign posts unlocked for travel to or from the Sign post you are currently using.
 
+I added a short fast travel route from Mulbrydale to the Hangman tree for people who would want to ride their way from the Southern Nilfgaard camp up to the center of Velen and properly trigger the next stage of the main quest. 
+
+As an alternative, you can fast travel directly from the Southern Nilfgaard camp to the Hangman tree.
+
 ## Detailed Fast Travel routes available
 
 Routes available by default:
