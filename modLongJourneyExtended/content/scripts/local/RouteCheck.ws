@@ -42,6 +42,25 @@ function isFastTravelBlocked(location_to : name, is_discovered_to: bool, is_know
 		if (location_from == 'novigrad_piers' && location_to == 'craite_harbor') return false;
 		if (location_from == 'craite_harbor' && location_to == 'novigrad_piers') return false;
 	 
+		/* Skellige (Craite Harbor) <-> Larvik harbor */
+		if (location_from == 'larvik' && location_to == 'craite_harbor') return false;
+		if (location_from == 'craite_harbor' && location_to == 'larvik') return false;
+	 
+		/* Skellige (Craite Harbor) <-> Harviken (Faroe Harbor) */
+		if (location_from == 'faroe_harbor' && location_to == 'craite_harbor') return false;
+		if (location_from == 'craite_harbor' && location_to == 'faroe_harbor') return false;
+	 
+		/* Skellige (Craite Harbor) <-> Svorlag (Spikeroog Harbor) */
+		if (location_from == 'spikeroog_harbor' && location_to == 'craite_harbor') return false;
+		if (location_from == 'craite_harbor' && location_to == 'spikeroog_harbor') return false;
+	 
+	}
+	
+	if ( (location_from == 'faroe_harbor') || ( (location_to == 'faroe_harbor') && (is_discovered_to || is_known_to)) || (location_from == 'larvik') || ( (location_to == 'larvik') && (is_discovered_to || is_known_to)) )
+	{
+		/* Harviken (Faroe Harbor) <-> Larvik harbor */
+		if (location_from == 'faroe_harbor' && location_to == 'larvik') return false;
+		if (location_from == 'larvik' && location_to == 'faroe_harbor') return false;
 	}
 
 	if (location_from == 'ep1_wedding_village' || ( (location_to == 'ep1_wedding_village') && (is_discovered_to || is_known_to)))
@@ -75,19 +94,8 @@ function isFastTravelBlocked(location_to : name, is_discovered_to: bool, is_know
 		if (location_from == 'Nilfgaard_camp' && location_to == 'bayors_ferry_station') return false;
 	}
 
-	if (location_from == 'oxenfurt_harbor' || ( (location_to == 'oxenfurt_harbor') && (is_discovered_to || is_known_to)))
+	if ( (location_from == 'oxenfurt_harbor') || ( (location_to == 'oxenfurt_harbor') && (is_discovered_to || is_known_to)) || (location_from == 'novigrad_piers') || ( (location_to == 'novigrad_piers') && (is_discovered_to || is_known_to)) )
 	{
-		/* Oxenfurt Harbor <-> White orchard Nilfgaard camp */
-		if (location_from == 'oxenfurt_harbor' && location_to == 'Nilfgaard_camp') return false;
-		if (location_from == 'Nilfgaard_camp' && location_to == 'oxenfurt_harbor') return false;
-	}
-
-	if (location_from == 'novigrad_piers' || ( (location_to == 'novigrad_piers') && (is_discovered_to || is_known_to)))
-	{
-		/* Novigrad Piers <-> White orchard Nilfgaard camp  */
-		if (location_from == 'novigrad_piers' && location_to == 'Nilfgaard_camp') return false;
-		if (location_from == 'Nilfgaard_camp' && location_to == 'novigrad_piers') return false;
-
 		/* Novigrad Piers <-> Oxenfurt Harbor */
 		if (location_from == 'oxenfurt_harbor' && location_to == 'novigrad_piers') return false;
 		if (location_from == 'novigrad_piers' && location_to == 'oxenfurt_harbor') return false;
