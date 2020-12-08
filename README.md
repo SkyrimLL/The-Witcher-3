@@ -35,12 +35,16 @@ Routes available by default:
 - White orchard Sawmill <-> Novigrad nilfgaard big camp on south (skip Vyzima)
 - White orchard cackler bridge <-> Kaer Morhen
 - Mulbrydale <-> Hangman Tree (to preserve main quest checkpoint)
-- Novigrad nilf big camp on south <-> Hangman Tree (to preserve main quest checkpoint)
+- Novigrad nilfgaard big camp on south <-> Hangman Tree (to preserve main quest checkpoint)
 
 Unlocked routes when the destination is known or discovered during quests:
 
 - Crow's Perch <-> Novigrad nilfgaard big camp on south
 - Novigrad docks <-> Skellige (Craite Harbor)
+- Skellige (Craite Harbor) <-> Larvik harbor 
+- Skellige (Craite Harbor) <-> Harviken (Faroe Harbor) 
+- Skellige (Craite Harbor) <-> Svorlag (Spikeroog Harbor)  
+- Harviken (Faroe Harbor) <-> Larvik harbor 
 - Brunwich village (HS) <-> Kaer Morhen
 - Toussaint Lebioda Statue Harbor <-> Vyzima 
 - Toussaint Lebioda Statue Harbor <-> Novigrad nilf big camp on south
@@ -49,6 +53,4 @@ Unlocked routes when the destination is known or discovered during quests:
 Ferry on the Pontar - Unlock the routes by discovering the destinations first.
 
 - Bayors Ferry Station <-> White orchard Nilfgaard camp
-- Oxenfurt Harbor <-> White orchard Nilfgaard camp
-- Novigrad Piers <-> White orchard Nilfgaard camp
 - Novigrad Piers <-> Oxenfurt Harbor
